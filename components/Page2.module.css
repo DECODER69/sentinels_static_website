@@ -1,0 +1,143 @@
+.container {
+    display: block;
+    background-image: url(../public/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15vh;
+  }
+  
+.container>.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container>.row1>h1{
+   font-size: 48px;
+   font-weight: bold;
+}
+.container>.row1>h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+ }
+
+ .container>.row2{
+    display: flex;
+    /* background-color: #9BD4D4; */
+    background-color:rgba(155, 212, 212,0.7);
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 50%; */
+    border-radius: 20px;
+    padding: 50px;
+    height: 312px;
+ }
+
+ .container>.row2>.left{
+    width: 100%;
+ }
+ .container>.row2>.left>p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0.1;
+ }
+ .container>.row2>.right{
+    width: 100%;
+    opacity: 100%;
+ }
+ .container>.row2>.right>img{
+    width: 312px;
+ }
+
+ .bot {
+ 
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: auto;
+}
+.bot > .left {
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 20px;
+  padding: 50px;
+  margin-right: 20px;
+  /* width: 700px;
+  height: 400px; */
+  /* width: auto;
+  height: auto; */
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 5%;
+  height: auto;
+  margin-bottom: 10vh;
+  border-color: gray;
+ 
+  
+}
+.bot > .left > .img1 > img {
+  width: 350px;
+}
+.bot > .left > .img1 > h2 {
+  margin-top: -30px;
+}
+.bot > .left > .img1 > p {
+   font-size: 16px;
+   color: #221892;
+   font-weight: bold;
+ }
+
+.bot > .right {
+  display: flex;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  margin-top: 20px;
+  padding-top: 50px;
+  /* width: 700px;
+  height: 400px; */
+  margin-right: 20px;
+  justify-content: center;
+  /* width: auto;
+  height: auto; */
+  width: 100%;
+  margin-right: 10%;
+  margin-left: 5%;
+  height: auto;
+  margin-bottom: 10vh;
+  
+}
+.bot > .right > .img1 > .outer {
+  display: flex;
+}
+
+.bot > .right > .img1 > .outer > .insideleft > img {
+  width: 250px;
+  margin: 40px;
+}
+.bot > .right > .img1 > .outer > .insideleft > p {
+  text-align: center;
+  margin-top: -30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.bot > .right > .img1 > .outer > .insideright > img {
+  width: 250px;
+  margin: 40px;
+}
+.bot > .right > .img1 > .outer > .insideright > p {
+  text-align: center;
+  margin-top: -30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.bot > .right > .img1 > h2 {
+  margin-top: -30px;
+}

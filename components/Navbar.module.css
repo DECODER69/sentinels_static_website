@@ -1,0 +1,54 @@
+.container {
+  box-shadow: 1px 1px #888888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  border-width: 1px;
+  width: auto;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%
+
+}
+.container>.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  
+}
+.container>.logo>h2{
+  color: red;
+  font-size: 30px;
+  
+}
+.container>.logo>h3{
+  color: black;
+  font-size: 30px;
+}
+
+
+.navbarActions {
+  display: flex;
+  gap: 10px;
+  margin-right: 40px;
+}
+.navbarActions>button:hover {
+  background-color: red;
+  
+}
+
+@media screen and (max-width: 500px) {
+  .navbarActions {
+    display: none;
+  }
+  .logo > img {
+    width: 140px;
+    height: 140px;
+  }
+}
