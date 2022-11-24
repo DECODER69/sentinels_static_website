@@ -1,2 +1,2 @@
-# sentinels_statis_website
+# sentinels_static_website
 WIP
