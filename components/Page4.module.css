@@ -4,14 +4,14 @@
     background-image: url(../public/images/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
   }
 
 
   .top{
     background-color:rgba(155, 212, 212,0.8);
-    width: 60%;
+    width: 966px;
     margin: 0 auto;
     padding: 0;
     border-radius: 50px;
@@ -31,6 +31,17 @@
     height: 200px;
     align-items: center;
   }
+  .container>.foot>.col1>span.sen{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .container>.foot>.col1>span.tinels{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
   .container>.foot>.col1 {
    display: block;
    width: 100%;
@@ -43,12 +54,35 @@
     margin-left: 200px;
     margin-right: 100px;
    }
+   .container>.foot>.col2>h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+   }
+   
    .container>.foot>.col3 {
     display: block;
     width: 100%;
     margin-left: 100px;
     margin-right: 200px;
    }
+   .container>.foot>.col3>h1 {
+   font-size: 30px;
+   font-weight: bold;
+   color: red;
+   }
+   .container>.foot>.col1>p {
+    font-size: 12px;
+    
+    }
+    .container>.foot>.col2>p {
+      font-size: 12px;
+      
+      }
+   .container>.foot>.col3>p {
+    font-size: 12px;
+    
+    }
 
    .down{
     padding-top: 25px;
@@ -74,6 +108,20 @@
     height: 260px;
     background-color: #44bebe;
     border-radius: 10px;
+    transition: transform .2s;
+  }
+  
+  .down>.row>.column:hover{
+    text-align: center;
+    /* border-style: solid;
+    border-width: 3px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 195px;
+    height: 260px;
+    background-color: #44bebe;
+    border-radius: 10px;
+    transform: scale(1.5);
   }
   .down>.row>.column>img{
     display: block;
@@ -82,6 +130,53 @@
     border-radius: 50%;
     margin: 20px auto;
   }
+ 
+
+
+  /* .flipcard {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+
+  .cardinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flipcard:hover .cardinner {
+    transform: rotateY(180deg);
+  }
+  
+  .cardfront, .cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .cardfront {
+    background-color: #bbb;
+    color: rgb(156, 15, 15);
+  }
+  
+  .cardback {
+    background-color: #2980b9;
+    color: rgb(233, 22, 22);
+    transform: rotateY(180deg);
+  }
+ 
+  .cardfront>img{
+    width:300px;
+    height:300px;
+  } */
 
  
  

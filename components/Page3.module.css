@@ -42,11 +42,21 @@
   font-size: 20px;
   height: 600px;
   background-color: #D9D9D9;
+  /* align-items: center; */
+  
+  
 
 }
 
 .down>table>tr>td>img {
   width: 29px;
+  transition: transform .2s;
+  
+}.down>table>tr>td>img:hover {
+  transform: scale(6);
+  /* width: 50px; */
+  border-radius: 10px;
+  
 }
 
 .down>table>tr>td>button {
@@ -59,4 +69,9 @@
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
+  transition: transform .2s;
+}
+.down>table>tr>td>button:hover {
+  transform: scale(1.5);
+
 }

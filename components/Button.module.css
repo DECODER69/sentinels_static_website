@@ -6,6 +6,7 @@
   background-color: #c51f3b;
   border: 1px solid #c51f3b;
   cursor: pointer;
+  
 }
 
 .primary:hover {
@@ -28,4 +29,5 @@
   background-color: #69ACAC;
   font-weight: bold;
   border-radius: 13px;
+  
 }

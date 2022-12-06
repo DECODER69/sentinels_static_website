@@ -3,16 +3,17 @@
     background-image: url(../public/images/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 95vh;
     text-align: center;
     justify-content: center;
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
   }
   
 .container>.row1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
     
 }
 .container>.row1>h1{
@@ -41,11 +42,14 @@
 
  .container>.row2>.left{
     width: 100%;
+
  }
  .container>.row2>.left>p{
     font-size: 24px;
     font-weight: bold;
     line-height: 0.1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
  }
  .container>.row2>.right{
     width: 100%;
@@ -53,6 +57,7 @@
  }
  .container>.row2>.right>img{
     width: 312px;
+   
  }
 
  .bot {
@@ -73,17 +78,22 @@
   height: 400px; */
   /* width: auto;
   height: auto; */
-  width: 100%;
+  /* width: 100%; */
+  width: 586px;
   margin-left: 10%;
   margin-right: 5%;
-  height: auto;
+  /* height: auto; */
+  height: 415px;
   margin-bottom: 10vh;
   border-color: gray;
  
   
 }
 .bot > .left > .img1 > img {
-  width: 350px;
+  /* width: 350px; */
+  width: 368px;
+  height: 223px;
+  border-radius: 15px;
 }
 .bot > .left > .img1 > h2 {
   margin-top: -30px;
@@ -107,10 +117,12 @@
   justify-content: center;
   /* width: auto;
   height: auto; */
-  width: 100%;
+  /* width: 100%; */
+  width: 567px;
   margin-right: 10%;
   margin-left: 5%;
-  height: auto;
+  /* height: auto; */
+  height: 415px;
   margin-bottom: 10vh;
   
 }
@@ -119,8 +131,11 @@
 }
 
 .bot > .right > .img1 > .outer > .insideleft > img {
-  width: 250px;
+  /* width: 250px; */
   margin: 40px;
+  width: 212px;
+  height: 141px;
+  border-radius: 15px;
 }
 .bot > .right > .img1 > .outer > .insideleft > p {
   text-align: center;
@@ -129,8 +144,11 @@
   font-size: 16px;
 }
 .bot > .right > .img1 > .outer > .insideright > img {
-  width: 250px;
+  /* width: 250px; */
   margin: 40px;
+  width: 212px;
+  height: 141px;
+  border-radius: 15px;
 }
 .bot > .right > .img1 > .outer > .insideright > p {
   text-align: center;

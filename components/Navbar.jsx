@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className={styles.logo}>
         {/* <img src="/images/tupclogo.png" /> */}
         <h2>SEN</h2>
-        <h3>TENILS</h3>
+        <h3>TINELS</h3>
        
       </div>
       <div className={styles.navbarActions}>
