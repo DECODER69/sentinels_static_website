@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 // import OurVision from "../components/OurVision";
 import Navbar from "../components/Navbar";
 
+
 const TUPC = () => {
   return (
     <div>
