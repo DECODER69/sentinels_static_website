@@ -159,3 +159,103 @@
 .bot > .right > .img1 > h2 {
   margin-top: -30px;
 }
+
+
+@media (max-width: 1000px) {
+  .bot {
+ 
+    display: block;
+    justify-content: center;
+    margin-bottom: 0;
+    align-items: center;
+    margin: auto;
+  
+  }
+
+  .bot > .left {
+    border-style: solid;
+    width: 300px;
+   
+    /* height: auto; */
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+  }
+  .bot > .right {
+    border-style: solid;
+    width: 300px;
+    
+
+    /* height: auto; */
+    height: 300px;
+    margin: 10px auto;
+  }
+  .bot > .right > .img1 > .outer > .insideright > img { 
+    /* width: 350px; */
+    width: 150px;
+    height: 90px;
+    border-radius: 15px;
+    margin: 48px 0;
+  }
+  .bot > .right > .img1 > .outer > .insideleft > img { 
+    /* width: 350px; */
+    width: 150px;
+    height: 90px;
+    border-radius: 15px;
+    margin: 48px 0;
+    
+  }
+  .bot > .right > .img1 > .outer {
+    
+  }
+
+  .bot > .left > .img1 > img {
+    /* width: 350px; */
+    width: 200px;
+    height: 150px;
+  
+    border-radius: 15px;
+  }
+  .container>.row2>.left>p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+ .container>.row2>.right>img{
+  width: 200px;
+ 
+}
+.container>.row1>h1{
+  font-size: 30px;
+}
+.container>.row1>h2{
+   font-size: 30px;
+}
+.container {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  
+}
+
+
+}
+@media (max-width: 500px) {
+  .container>.row2>.left>p{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 0.1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .container>.row2>.right>img{
+  width: 150px;
+ 
+}
+ 
+}

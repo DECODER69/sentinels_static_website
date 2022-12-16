@@ -1,9 +1,12 @@
 import Button from "./Button";
 import styles from "./Navbar.module.css";
 import Link from 'next/link'
+import React, {useState} from 'react'
+
 
 
 const Navbar = () => {
+  const [show,setShow]=useState(true)
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
@@ -12,7 +15,10 @@ const Navbar = () => {
         <h3>TINELS</h3>
       </div>
 
-        <div className={styles.toggle}> 
+
+        <div className={styles.toggle} onClick={()=>setShow(!show)}> 
+  
+
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
@@ -20,7 +26,7 @@ const Navbar = () => {
 
 
      
-      <div className={styles.navbarActions}>
+        <div className={styles.navbarActions}>
 
         <Link className={styles.inside} href="/tupc" passhref> 
           <Button  variant="secondary">   Home</Button> 
@@ -40,21 +46,32 @@ const Navbar = () => {
       
       </div>
 
-    </div>
+      {show?<div className={styles.navbarActions2}>
+               
+      <Link className={styles.inside} href="/tupc" passhref> 
+          <Button  variant="secondary">   Home</Button> 
+        </Link>
 
+        <Link className={styles.inside} href="/Page2" passhref> 
+          <Button variant="secondary"> DashBoard</Button>
+        </Link>
+
+        <Link className={styles.inside} href="Page3" passhref> 
+          <Button variant="secondary"> Services</Button>
+        </Link>
+
+        <Link className={styles.inside} href="Page4" passhref> 
+          <Button variant="secondary">  About</Button>
+        </Link>
+              
+            </div>:null}
+
+    </div>
     
-  
     
   );
 };
 
 
-// const toggle = document.getElementsByClassName('toggele-button')[0]
-// const navbarActions = document.getElementsByClassName('navbar-links')[0]
-
-
-// toggle.addEventListener('click', () => {
-//   navbarActions.classList.toggle('active')
-// })
 
 export default Navbar;

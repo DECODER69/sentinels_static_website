@@ -3,6 +3,9 @@ import styles from "./Page4.module.css";
 const Page4 = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.space}>
+        
+      </div>
 
       <div className={styles.top}>
         <div className={styles.down}>
@@ -41,6 +44,11 @@ const Page4 = () => {
         </div>
       </div>
 
+      <div className={styles.botspace}>
+        
+
+      </div>
+
       {/* <div className={styles.flipcard}>
         <div className={styles.cardinner}>
           <div className={styles.cardfront}>
@@ -54,7 +62,7 @@ const Page4 = () => {
         </div>
       </div> */}
 
-      <div className={styles.foot}>
+      {/* <div className={styles.foot}>
         <div className={styles.col1}>
           <span className={styles.sen}>SEN</span>
           <span className={styles.tinels} >TINELS</span>
@@ -78,7 +86,7 @@ const Page4 = () => {
             commodi eum odio consequatur vel eaque quasi
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
 
    
