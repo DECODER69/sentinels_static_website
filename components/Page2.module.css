@@ -218,14 +218,14 @@
     border-radius: 15px;
   }
   .container>.row2>.left>p{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     line-height: 0.1;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
  }
  .container>.row2>.right>img{
-  width: 200px;
+  width: 170px;
  
 }
 .container>.row1>h1{
@@ -248,7 +248,7 @@
 }
 @media (max-width: 500px) {
   .container>.row2>.left>p{
-    font-size: 10px;
+    font-size: 8px;
     font-weight: bold;
     line-height: 0.1;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,6 +256,12 @@
  .container>.row2>.right>img{
   width: 150px;
  
+}
+.container>.row1>h1{
+  font-size: 20px;
+}
+.container>.row1>h2{
+   font-size: 20px;
 }
  
 }
