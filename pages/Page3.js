@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
 import Page3 from "../components/Page3";
+import dynamic from "next/dynamic";
+
 
 const PAGE3 = () => {
   return (
@@ -10,4 +12,6 @@ const PAGE3 = () => {
   );
 };
 
+
 export default PAGE3;
+

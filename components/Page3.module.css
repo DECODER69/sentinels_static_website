@@ -47,18 +47,18 @@
 
 }
 
-.down>table>tr>td>img {
+.down>table>tbody>tr>td>img {
   width: 29px;
   transition: transform .2s;
   
-}.down>table>tr>td>img:hover {
+}.down>table>tbody>tr>td>img:hover {
   transform: scale(6);
   /* width: 50px; */
   border-radius: 10px;
   
 }
 
-.down>table>tr>td>button {
+.down>table>tbody>tr>td>button {
   background-color: #D80A0A;
   color: white;
   border-radius: 10px;
@@ -70,7 +70,7 @@
   cursor: pointer;
   transition: transform .2s;
 }
-.down>table>tr>td>button:hover {
+.down>table>tbody>tr>td>button:hover {
   transform: scale(1.5);
 
 }
@@ -87,7 +87,7 @@
 
   
   }
-  .down>table>tr>td>button {
+  .down>table>tbody>tr>td>button {
     background-color: #D80A0A;
     color: white;
     border-radius: 10px;
